@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+
+    <color name="transparent">#00000000</color>
+    <color name="translucent">#88888888</color>
+
+    <color name="base_bg">#F0F0F0</color>
+    <color name="head_bg">#0a65ba</color>
+    <color name="normal">#a9b7b7</color>
+    <color name="white">#fff</color>or>
+    <color name="colorAccent">#FF4081</color>
+    <color name="green">#09F738</color>
+
+    <!--播放器-->
+    <color name="common_bg">#f0f0f3</color>
+    <color name="black_bg">#000000</color>
+    <color name="common_sub_text">#888888</color>
+    <color name="source_detection_btn_color">#48a9fb</color>
+    <color name="viewfinder_frame">#929292</color>
+    <color name="dark_bg_70p">#bb000000</color>
+    <color name="gray_text">#adadad</color>
+    <color name="common_text">#333333</color>
+    <color name="grouplayout_item_bg_sel">#f3f4f5</color>
+    <color name="quality_focused_color">#448cf3</color>
+</resources>

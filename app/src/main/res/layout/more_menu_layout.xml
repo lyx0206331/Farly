@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/base_bg"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_monitor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/transparent"
+        android:onClick="monitor"
+        android:text="@string/monitor"/>
+
+    <View
+        android:id="@+id/line1"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/normal" />
+
+    <Button
+        android:id="@+id/btn_upload"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/transparent"
+        android:onClick="openFileExp"
+        android:text="@string/upload"/>
+
+    <View
+        android:id="@+id/line3"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/normal" />
+
+    <Button
+        android:id="@+id/btn_ctrl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/transparent"
+        android:onClick="control"
+        android:text="@string/control"/>
+
+    <View
+        android:id="@+id/line2"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/normal" />
+
+    <Button
+        android:id="@+id/btn_quit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/transparent"
+        android:onClick="quit"
+        android:text="@string/quit"/>
+
+</LinearLayout>

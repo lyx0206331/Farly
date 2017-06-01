@@ -1,0 +1,1122 @@
+{
+	"content": {
+		"工艺数据库": {
+			"切割": {
+				"扫描切割": {
+					"切割功率": {
+						"english": "CuttingPower",
+						"key": ".stCuttingParameter[1].iCuttingPower",
+						"type": "int",
+						"unit": "W",
+						"value": "0"
+					},
+					"切割加速度": {
+						"english": "CuttingAcc",
+						"key": ".stCuttingParameter[1].iCuttingAcc",
+						"type": "int",
+						"unit": "",
+						"value": "0"
+					},
+					"切割加速时间": {
+						"english": "Pause",
+						"key": ".stCuttingParameter[1].iCuttingRamptime",
+						"type": "int",
+						"unit": "",
+						"value": "0"
+					},
+					"切割占空比": {
+						"english": "CuttingDuty",
+						"key": ".stCuttingParameter[1].iCuttingDuty",
+						"type": "int",
+						"unit": "%",
+						"value": "0"
+					},
+					"切割气体": {
+						"english": "CuttingGasType",
+						"key": ".stCuttingParameter[1].iCuttingGasType",
+						"type": "int",
+						"unit": "",
+						"value": "0"
+					},
+					"切割气压": {
+						"english": "CuttingGasPress",
+						"key": ".stCuttingParameter[1].fCuttingGasPress",
+						"type": "float",
+						"unit": "Pa",
+						"value": "0"
+					},
+					"切割焦点": {
+						"english": "CuttingFouce",
+						"key": ".stCuttingParameter[1].fCuttingFouce",
+						"type": "float",
+						"unit": "",
+						"value": "0"
+					},
+					"切割精度": {
+						"english": "Reset",
+						"key": ".stCuttingParameter[1].fCuttingPrecision",
+						"type": "float",
+						"unit": "",
+						"value": "0"
+					},
+					"切割速度": {
+						"english": "CuttingSpeed",
+						"key": ".stCuttingParameter[1].fCuttingSpeed",
+						"type": "float",
+						"unit": "m/s",
+						"value": "0"
+					},
+					"切割频率": {
+						"english": "CuttingFrequency",
+						"key": ".stCuttingParameter[1].iCuttingFrequency",
+						"type": "int",
+						"unit": "Hz",
+						"value": "0"
+					},
+					"切割高度": {
+						"english": "CuttingHeight",
+						"key": ".stCuttingParameter[1].fCuttingHeight",
+						"type": "float",
+						"unit": "",
+						"value": "0"
+					},
+					"功率控制": {
+						"english": "Pause",
+						"key": ".stCuttingParameter[1].iCuttingPowerModel",
+						"type": "int",
+						"unit": "",
+						"value": "0"
+					},
+					"圆弧加速时间": {
+						"english": "Run",
+						"key": "",
+						"type": "int",
+						"unit": "",
+						"value": "0"
+					},
+					"抬头高度": {
+						"english": "Pause",
+						"key": ".stCuttingParameter[1].fUpHeight",
+						"type": "float",
+						"unit": "",
+						"value": "0"
+					},
+					"穿孔模式": {
+						"english": "PercingType",
+						"key": ".stCuttingParameter[1].iPercingType",
+						"type": "int",
+						"unit": "",
+						"value": "0"
+					},
+					"随动模式": {
+						"english": "FollowingType",
+						"key": ".stCuttingParameter[1].iFollowingType",
+						"type": "int",
+						"unit": "",
+						"value": "0"
+					}
+				},
+				"标准切割": {
+					"切割功率": {
+						"english": "CuttingPower",
+						"key": ".stCuttingParameter[0].iCuttingPower",
+						"type": "int",
+						"unit": "W",
+						"value": "0"
+					},
+					"切割加速度": {
+						"english": "CuttingAcc",
+						"key": ".stCuttingParameter[0].iCuttingAcc",
+						"type": "int",
+						"unit": "",
+						"value": "0"
+					},
+					"切割加速时间": {
+						"english": "Pause",
+						"key": ".stCuttingParameter[0].iCuttingRamptime",
+						"type": "int",
+						"unit": "",
+						"value": "0"
+					},
+					"切割占空比": {
+						"english": "CuttingDuty",
+						"key": ".stCuttingParameter[0].iCuttingDuty",
+						"type": "int",
+						"unit": "%",
+						"value": "0"
+					},
+					"切割气体": {
+						"english": "CuttingGasType",
+						"key": ".stCuttingParameter[0].iCuttingGasType",
+						"type": "int",
+						"unit": "",
+						"value": "0"
+					},
+					"切割气压": {
+						"english": "CuttingGasPress",
+						"key": ".stCuttingParameter[0].fCuttingGasPress",
+						"type": "float",
+						"unit": "Pa",
+						"value": "0"
+					},
+					"切割焦点": {
+						"english": "CuttingFouce",
+						"key": ".stCuttingParameter[0].fCuttingFouce",
+						"type": "float",
+						"unit": "",
+						"value": "0"
+					},
+					"切割精度": {
+						"english": "Reset",
+						"key": ".stCuttingParameter[0].fCuttingPrecision",
+						"type": "float",
+						"unit": "",
+						"value": "0"
+					},
+					"切割速度": {
+						"english": "CuttingSpeed",
+						"key": ".stCuttingParameter[0].fCuttingSpeed",
+						"type": "float",
+						"unit": "m/s",
+						"value": "0"
+					},
+					"切割频率": {
+						"english": "CuttingFrequency",
+						"key": ".stCuttingParameter[0].iCuttingFrequency",
+						"type": "int",
+						"unit": "Hz",
+						"value": "0"
+					},
+					"切割高度": {
+						"english": "CuttingHeight",
+						"key": ".stCuttingParameter[0].fCuttingHeight",
+						"type": "float",
+						"unit": "",
+						"value": "0"
+					},
+					"功率控制": {
+						"english": "Pause",
+						"key": ".stCuttingParameter[0].iCuttingPowerModel",
+						"type": "int",
+						"unit": "",
+						"value": "0"
+					},
+					"圆弧加速时间": {
+						"english": "Run",
+						"key": "",
+						"type": "int",
+						"unit": "",
+						"value": "0"
+					},
+					"抬头高度": {
+						"english": "Pause",
+						"key": ".stCuttingParameter[0].fUpHeight",
+						"type": "float",
+						"unit": "",
+						"value": "0"
+					},
+					"穿孔模式": {
+						"english": "PercingType",
+						"key": ".stCuttingParameter[0].iPercingType",
+						"type": "int",
+						"unit": "",
+						"value": "0"
+					},
+					"随动模式": {
+						"english": "FollowingType",
+						"key": ".stCuttingParameter[0].iFollowingType",
+						"type": "int",
+						"unit": "",
+						"value": "0"
+					}
+				},
+				"标刻": {
+					"切割功率": {
+						"english": "CuttingPower",
+						"key": ".stCuttingParameter[3].iCuttingPower",
+						"type": "int",
+						"unit": "W",
+						"value": "0"
+					},
+					"切割加速度": {
+						"english": "CuttingAcc",
+						"key": ".stCuttingParameter[3].iCuttingAcc",
+						"type": "int",
+						"unit": "",
+						"value": "0"
+					},
+					"切割加速时间": {
+						"english": "Pause",
+						"key": ".stCuttingParameter[3].iCuttingRamptime",
+						"type": "int",
+						"unit": "",
+						"value": "0"
+					},
+					"切割占空比": {
+						"english": "CuttingDuty",
+						"key": ".stCuttingParameter[3].iCuttingDuty",
+						"type": "int",
+						"unit": "%",
+						"value": "0"
+					},
+					"切割气体": {
+						"english": "CuttingGasType",
+						"key": ".stCuttingParameter[3].iCuttingGasType",
+						"type": "int",
+						"unit": "",
+						"value": "0"
+					},
+					"切割气压": {
+						"english": "CuttingGasPress",
+						"key": ".stCuttingParameter[3].fCuttingGasPress",
+						"type": "float",
+						"unit": "Pa",
+						"value": "0"
+					},
+					"切割焦点": {
+						"english": "CuttingFouce",
+						"key": ".stCuttingParameter[3].fCuttingFouce",
+						"type": "float",
+						"unit": "",
+						"value": "0"
+					},
+					"切割精度": {
+						"english": "Reset",
+						"key": ".stCuttingParameter[3].fCuttingPrecision",
+						"type": "float",
+						"unit": "",
+						"value": "0"
+					},
+					"切割速度": {
+						"english": "CuttingSpeed",
+						"key": ".stCuttingParameter[3].fCuttingSpeed",
+						"type": "float",
+						"unit": "m/s",
+						"value": "0"
+					},
+					"切割频率": {
+						"english": "CuttingFrequency",
+						"key": ".stCuttingParameter[3].iCuttingFrequency",
+						"type": "int",
+						"unit": "Hz",
+						"value": "0"
+					},
+					"切割高度": {
+						"english": "CuttingHeight",
+						"key": ".stCuttingParameter[3].fCuttingHeight",
+						"type": "float",
+						"unit": "",
+						"value": "0"
+					},
+					"功率控制": {
+						"english": "Pause",
+						"key": ".stCuttingParameter[3].iCuttingPowerModel",
+						"type": "int",
+						"unit": "",
+						"value": "0"
+					},
+					"圆弧加速时间": {
+						"english": "Run",
+						"key": "",
+						"type": "int",
+						"unit": "",
+						"value": "0"
+					},
+					"抬头高度": {
+						"english": "Pause",
+						"key": ".stCuttingParameter[3].fUpHeight",
+						"type": "float",
+						"unit": "",
+						"value": "0"
+					},
+					"穿孔模式": {
+						"english": "PercingType",
+						"key": ".stCuttingParameter[3].iPercingType",
+						"type": "int",
+						"unit": "",
+						"value": "0"
+					},
+					"随动模式": {
+						"english": "FollowingType",
+						"key": ".stCuttingParameter[3].iFollowingType",
+						"type": "int",
+						"unit": "",
+						"value": "0"
+					}
+				},
+				"样条切割": {
+					"切割功率": {
+						"english": "CuttingPower",
+						"key": ".stCuttingParameter[5].iCuttingPower",
+						"type": "int",
+						"unit": "W",
+						"value": "0"
+					},
+					"切割加速度": {
+						"english": "CuttingAcc",
+						"key": ".stCuttingParameter[5].iCuttingAcc",
+						"type": "int",
+						"unit": "",
+						"value": "0"
+					},
+					"切割加速时间": {
+						"english": "Pause",
+						"key": ".stCuttingParameter[5].iCuttingRamptime",
+						"type": "int",
+						"unit": "",
+						"value": "0"
+					},
+					"切割占空比": {
+						"english": "CuttingDuty",
+						"key": ".stCuttingParameter[5].iCuttingDuty",
+						"type": "int",
+						"unit": "%",
+						"value": "0"
+					},
+					"切割气体": {
+						"english": "CuttingGasType",
+						"key": ".stCuttingParameter[5].iCuttingGasType",
+						"type": "int",
+						"unit": "",
+						"value": "0"
+					},
+					"切割气压": {
+						"english": "CuttingGasPress",
+						"key": ".stCuttingParameter[5].fCuttingGasPress",
+						"type": "float",
+						"unit": "Pa",
+						"value": "0"
+					},
+					"切割焦点": {
+						"english": "CuttingFouce",
+						"key": ".stCuttingParameter[5].fCuttingFouce",
+						"type": "float",
+						"unit": "",
+						"value": "0"
+					},
+					"切割精度": {
+						"english": "Reset",
+						"key": ".stCuttingParameter[5].fCuttingPrecision",
+						"type": "float",
+						"unit": "",
+						"value": "0"
+					},
+					"切割速度": {
+						"english": "CuttingSpeed",
+						"key": ".stCuttingParameter[5].fCuttingSpeed",
+						"type": "float",
+						"unit": "m/s",
+						"value": "0"
+					},
+					"切割频率": {
+						"english": "CuttingFrequency",
+						"key": ".stCuttingParameter[5].iCuttingFrequency",
+						"type": "int",
+						"unit": "Hz",
+						"value": "0"
+					},
+					"切割高度": {
+						"english": "CuttingHeight",
+						"key": ".stCuttingParameter[5].fCuttingHeight",
+						"type": "float",
+						"unit": "",
+						"value": "0"
+					},
+					"功率控制": {
+						"english": "Pause",
+						"key": ".stCuttingParameter[5].iCuttingPowerModel",
+						"type": "int",
+						"unit": "",
+						"value": "0"
+					},
+					"圆弧加速时间": {
+						"english": "Run",
+						"key": "",
+						"type": "int",
+						"unit": "",
+						"value": "0"
+					},
+					"抬头高度": {
+						"english": "Pause",
+						"key": ".stCuttingParameter[5].fUpHeight",
+						"type": "float",
+						"unit": "",
+						"value": "0"
+					},
+					"穿孔模式": {
+						"english": "PercingType",
+						"key": ".stCuttingParameter[5].iPercingType",
+						"type": "int",
+						"unit": "",
+						"value": "0"
+					},
+					"随动模式": {
+						"english": "FollowingType",
+						"key": ".stCuttingParameter[5].iFollowingType",
+						"type": "int",
+						"unit": "",
+						"value": "0"
+					}
+				},
+				"烧膜": {
+					"切割功率": {
+						"english": "CuttingPower",
+						"key": ".stCuttingParameter[4].iCuttingPower",
+						"type": "int",
+						"unit": "W",
+						"value": "0"
+					},
+					"切割加速度": {
+						"english": "CuttingAcc",
+						"key": ".stCuttingParameter[4].iCuttingAcc",
+						"type": "int",
+						"unit": "",
+						"value": "0"
+					},
+					"切割加速时间": {
+						"english": "Pause",
+						"key": ".stCuttingParameter[4].iCuttingRamptime",
+						"type": "int",
+						"unit": "",
+						"value": "0"
+					},
+					"切割占空比": {
+						"english": "CuttingDuty",
+						"key": ".stCuttingParameter[4].iCuttingDuty",
+						"type": "int",
+						"unit": "%",
+						"value": "0"
+					},
+					"切割气体": {
+						"english": "CuttingGasType",
+						"key": ".stCuttingParameter[4].iCuttingGasType",
+						"type": "int",
+						"unit": "",
+						"value": "0"
+					},
+					"切割气压": {
+						"english": "CuttingGasPress",
+						"key": ".stCuttingParameter[4].fCuttingGasPress",
+						"type": "float",
+						"unit": "Pa",
+						"value": "0"
+					},
+					"切割焦点": {
+						"english": "CuttingFouce",
+						"key": ".stCuttingParameter[4].fCuttingFouce",
+						"type": "float",
+						"unit": "",
+						"value": "0"
+					},
+					"切割精度": {
+						"english": "Reset",
+						"key": ".stCuttingParameter[4].fCuttingPrecision",
+						"type": "float",
+						"unit": "",
+						"value": "0"
+					},
+					"切割速度": {
+						"english": "CuttingSpeed",
+						"key": ".stCuttingParameter[4].fCuttingSpeed",
+						"type": "float",
+						"unit": "m/s",
+						"value": "0"
+					},
+					"切割频率": {
+						"english": "CuttingFrequency",
+						"key": ".stCuttingParameter[4].iCuttingFrequency",
+						"type": "int",
+						"unit": "Hz",
+						"value": "0"
+					},
+					"切割高度": {
+						"english": "CuttingHeight",
+						"key": ".stCuttingParameter[4].fCuttingHeight",
+						"type": "float",
+						"unit": "",
+						"value": "0"
+					},
+					"功率控制": {
+						"english": "Pause",
+						"key": ".stCuttingParameter[4].iCuttingPowerModel",
+						"type": "int",
+						"unit": "",
+						"value": "0"
+					},
+					"圆弧加速时间": {
+						"english": "Run",
+						"key": "",
+						"type": "int",
+						"unit": "",
+						"value": "0"
+					},
+					"抬头高度": {
+						"english": "Pause",
+						"key": ".stCuttingParameter[4].fUpHeight",
+						"type": "float",
+						"unit": "",
+						"value": "0"
+					},
+					"穿孔模式": {
+						"english": "PercingType",
+						"key": ".stCuttingParameter[4].iPercingType",
+						"type": "int",
+						"unit": "",
+						"value": "0"
+					},
+					"随动模式": {
+						"english": "FollowingType",
+						"key": ".stCuttingParameter[4].iFollowingType",
+						"type": "int",
+						"unit": "",
+						"value": "0"
+					}
+				},
+				"精细切割": {
+					"切割功率": {
+						"english": "CuttingPower",
+						"key": ".stCuttingParameter[2].iCuttingPower",
+						"type": "int",
+						"unit": "W",
+						"value": "0"
+					},
+					"切割加速度": {
+						"english": "CuttingAcc",
+						"key": ".stCuttingParameter[2].iCuttingAcc",
+						"type": "int",
+						"unit": "",
+						"value": "0"
+					},
+					"切割加速时间": {
+						"english": "Pause",
+						"key": ".stCuttingParameter[2].iCuttingRamptime",
+						"type": "int",
+						"unit": "",
+						"value": "0"
+					},
+					"切割占空比": {
+						"english": "CuttingDuty",
+						"key": ".stCuttingParameter[2].iCuttingDuty",
+						"type": "int",
+						"unit": "%",
+						"value": "0"
+					},
+					"切割气体": {
+						"english": "CuttingGasType",
+						"key": ".stCuttingParameter[2].iCuttingGasType",
+						"type": "int",
+						"unit": "",
+						"value": "0"
+					},
+					"切割气压": {
+						"english": "CuttingGasPress",
+						"key": ".stCuttingParameter[2].fCuttingGasPress",
+						"type": "float",
+						"unit": "Pa",
+						"value": "0"
+					},
+					"切割焦点": {
+						"english": "CuttingFouce",
+						"key": ".stCuttingParameter[2].fCuttingFouce",
+						"type": "float",
+						"unit": "",
+						"value": "0"
+					},
+					"切割精度": {
+						"english": "Reset",
+						"key": ".stCuttingParameter[2].fCuttingPrecision",
+						"type": "float",
+						"unit": "",
+						"value": "0"
+					},
+					"切割速度": {
+						"english": "CuttingSpeed",
+						"key": ".stCuttingParameter[2].fCuttingSpeed",
+						"type": "float",
+						"unit": "m/s",
+						"value": "0"
+					},
+					"切割频率": {
+						"english": "CuttingFrequency",
+						"key": ".stCuttingParameter[2].iCuttingFrequency",
+						"type": "int",
+						"unit": "Hz",
+						"value": "0"
+					},
+					"切割高度": {
+						"english": "CuttingHeight",
+						"key": ".stCuttingParameter[2].fCuttingHeight",
+						"type": "float",
+						"unit": "",
+						"value": "0"
+					},
+					"功率控制": {
+						"english": "Pause",
+						"key": ".stCuttingParameter[2].iCuttingPowerModel",
+						"type": "int",
+						"unit": "",
+						"value": "0"
+					},
+					"圆弧加速时间": {
+						"english": "Run",
+						"key": "",
+						"type": "int",
+						"unit": "",
+						"value": "0"
+					},
+					"抬头高度": {
+						"english": "Pause",
+						"key": ".stCuttingParameter[2].fUpHeight",
+						"type": "float",
+						"unit": "",
+						"value": "0"
+					},
+					"穿孔模式": {
+						"english": "PercingType",
+						"key": ".stCuttingParameter[2].iPercingType",
+						"type": "int",
+						"unit": "",
+						"value": "0"
+					},
+					"随动模式": {
+						"english": "FollowingType",
+						"key": ".stCuttingParameter[2].iFollowingType",
+						"type": "int",
+						"unit": "",
+						"value": "0"
+					}
+				}
+			},
+			"基本": {
+				"切割嘴": {
+					"english": "",
+					"key": "",
+					"type": "string",
+					"unit": "",
+					"value": "0"
+				},
+				"厚度": {
+					"english": "",
+					"key": "",
+					"type": "string",
+					"unit": "",
+					"value": "0"
+				},
+				"材料": {
+					"english": "",
+					"key": "",
+					"type": "string",
+					"unit": "",
+					"value": "0"
+				},
+				"气体": {
+					"english": "",
+					"key": "",
+					"type": "string",
+					"unit": "",
+					"value": "0"
+				},
+				"激光功率": {
+					"english": "",
+					"key": "",
+					"type": "string",
+					"unit": "",
+					"value": "0"
+				},
+				"聚焦镜": {
+					"english": "",
+					"key": "",
+					"type": "string",
+					"unit": "",
+					"value": "0"
+				},
+				"说明": {
+					"english": "",
+					"key": "",
+					"type": "string",
+					"unit": "",
+					"value": "0"
+				}
+			},
+			"机床": {
+				"慢速起刀功能": {
+					"功能开关": {
+						"english": "SlowStart",
+						"key": ".stCommonParameter.iSlowStart",
+						"type": "int",
+						"unit": "",
+						"value": "0"
+					},
+					"起刀倍率": {
+						"english": "SlowStartFeedFactor",
+						"key": ".stCommonParameter.iSlowStartFeedFactor",
+						"type": "int",
+						"unit": "",
+						"value": "0"
+					},
+					"起刀时间": {
+						"english": "SlowStartTime",
+						"key": ".stCommonParameter.fSlowStartTime",
+						"type": "float",
+						"unit": "",
+						"value": "0"
+					}
+				},
+				"气体延时功能": {
+					"功能开关": {
+						"english": "",
+						"key": ".stCommonParameter.iGasChangeDelay",
+						"type": "int",
+						"unit": "",
+						"value": "0"
+					},
+					"氧气延时时间": {
+						"english": "",
+						"key": ".stCommonParameter.fGasO2DelayTime",
+						"type": "float",
+						"unit": "",
+						"value": "0"
+					},
+					"氮气延时时间": {
+						"english": "",
+						"key": ".stCommonParameter.fGasN2DelayTime",
+						"type": "float",
+						"unit": "",
+						"value": "0"
+					}
+				},
+				"穿孔圆角功能": {
+					"切圆半径": {
+						"english": "",
+						"key": ".stCommonParameter.fCutCircularRadius",
+						"type": "float",
+						"unit": "",
+						"value": "0"
+					},
+					"切圆速度": {
+						"english": "",
+						"key": ".stCommonParameter.fCutCircularSpeed",
+						"type": "float",
+						"unit": "",
+						"value": "0"
+					},
+					"功能开关": {
+						"english": "",
+						"key": ".stCommonParameter.iCutCircularAfterPiercing",
+						"type": "int",
+						"unit": "",
+						"value": "0"
+					}
+				},
+				"能量控制参数": {
+					"启动速度": {
+						"english": "Auto",
+						"key": ".stCommonParameter.fEnergyCtrlHighSpeed",
+						"type": "float",
+						"unit": "",
+						"value": "0"
+					},
+					"拐角功率": {
+						"english": "Auto",
+						"key": ".stCommonParameter.iEnergyCtrlLowPower",
+						"type": "int",
+						"unit": "",
+						"value": "0"
+					},
+					"拐角占空比": {
+						"english": "Auto",
+						"key": ".stCommonParameter.iEnergyCtrlLowDuty",
+						"type": "int",
+						"unit": "",
+						"value": "0"
+					},
+					"拐角速度": {
+						"english": "Ref",
+						"key": ".stCommonParameter.fEnergyCtrlLowSpeed",
+						"type": "float",
+						"unit": "",
+						"value": "0"
+					},
+					"控制类型": {
+						"english": "Ref",
+						"key": ".stCommonParameter.iEnergyCtrlType",
+						"type": "int",
+						"unit": "",
+						"value": "0"
+					}
+				},
+				"蛙跳功能参数": {
+					"提前距离": {
+						"english": "Reset",
+						"key": ".stCommonParameter.fPreGapDist",
+						"type": "float",
+						"unit": "",
+						"value": "0"
+					},
+					"起跳高度": {
+						"english": "Run",
+						"key": ".stCommonParameter.fPeotectdistance",
+						"type": "float",
+						"unit": "",
+						"value": "0"
+					}
+				}
+			},
+			"穿孔": {
+				"多级穿孔中位": {
+					"穿孔功率": {
+						"english": "",
+						"key": ".stPiercingLaserControl.MultiPiercingPower2",
+						"type": "int",
+						"unit": "",
+						"value": "0"
+					},
+					"穿孔占空比": {
+						"english": "Backward",
+						"key": ".stPiercingLaserControl.MultiPiercingDuty2",
+						"type": "int",
+						"unit": "",
+						"value": "0"
+					},
+					"穿孔时间": {
+						"english": "",
+						"key": ".stPiercingLaserControl.MultiPiercingTime2",
+						"type": "int",
+						"unit": "",
+						"value": "0"
+					},
+					"穿孔气压": {
+						"english": "",
+						"key": ".stPiercingLaserControl.MultiPiercingGasPress2",
+						"type": "float",
+						"unit": "",
+						"value": "0"
+					},
+					"穿孔频率": {
+						"english": "SingleBlock",
+						"key": ".stPiercingLaserControl.MultiPiercingFrequency2",
+						"type": "int",
+						"unit": "",
+						"value": "0"
+					},
+					"穿孔高度": {
+						"english": "",
+						"key": ".stPiercingLaserControl.MultiPercingHeight2",
+						"type": "float",
+						"unit": "",
+						"value": "0"
+					}
+				},
+				"多级穿孔低位": {
+					"穿孔功率": {
+						"english": "",
+						"key": ".stPiercingLaserControl.MultiPiercingPower3",
+						"type": "int",
+						"unit": "",
+						"value": "0"
+					},
+					"穿孔占空比": {
+						"english": "Backward",
+						"key": ".stPiercingLaserControl.MultiPiercingDuty3",
+						"type": "int",
+						"unit": "",
+						"value": "0"
+					},
+					"穿孔时间": {
+						"english": "",
+						"key": ".stPiercingLaserControl.MultiPiercingTime3",
+						"type": "int",
+						"unit": "",
+						"value": "0"
+					},
+					"穿孔气压": {
+						"english": "",
+						"key": ".stPiercingLaserControl.MultiPiercingGasPress3",
+						"type": "float",
+						"unit": "",
+						"value": "0"
+					},
+					"穿孔频率": {
+						"english": "SingleBlock",
+						"key": ".stPiercingLaserControl.MultiPiercingFrequency3",
+						"type": "int",
+						"unit": "",
+						"value": "0"
+					},
+					"穿孔高度": {
+						"english": "",
+						"key": ".stPiercingLaserControl.MultiPercingHeight3",
+						"type": "float",
+						"unit": "",
+						"value": "0"
+					}
+				},
+				"多级穿孔次数及气体选择": {
+					"穿孔次数": {
+						"english": "",
+						"key": ".stPiercingLaserControl.MultiPiercingNum",
+						"type": "int",
+						"unit": "",
+						"value": "0"
+					},
+					"穿孔气体": {
+						"english": "",
+						"key": ".stPiercingLaserControl.MultiPiercingGasType",
+						"type": "int",
+						"unit": "",
+						"value": "0"
+					}
+				},
+				"多级穿孔高位": {
+					"穿孔功率": {
+						"english": "",
+						"key": ".stPiercingLaserControl.MultiPiercingPower1",
+						"type": "int",
+						"unit": "",
+						"value": "0"
+					},
+					"穿孔占空比": {
+						"english": "Backward",
+						"key": ".stPiercingLaserControl.MultiPiercingDuty1",
+						"type": "int",
+						"unit": "",
+						"value": "0"
+					},
+					"穿孔时间": {
+						"english": "",
+						"key": ".stPiercingLaserControl.MultiPiercingTime1",
+						"type": "int",
+						"unit": "",
+						"value": "0"
+					},
+					"穿孔气压": {
+						"english": "",
+						"key": ".stPiercingLaserControl.MultiPiercingGasPress1",
+						"type": "float",
+						"unit": "",
+						"value": "0"
+					},
+					"穿孔频率": {
+						"english": "SingleBlock",
+						"key": ".stPiercingLaserControl.MultiPiercingFrequency1",
+						"type": "int",
+						"unit": "",
+						"value": "0"
+					},
+					"穿孔高度": {
+						"english": "",
+						"key": ".stPiercingLaserControl.MultiPercingHeight1",
+						"type": "float",
+						"unit": "",
+						"value": "0"
+					}
+				},
+				"普通穿孔": {
+					"穿孔功率": {
+						"english": "",
+						"key": ".stPiercingLaserControl.Percingpower",
+						"type": "int",
+						"unit": "",
+						"value": "0"
+					},
+					"穿孔占空比": {
+						"english": "",
+						"key": ".stPiercingLaserControl.PercingDuty",
+						"type": "int",
+						"unit": "",
+						"value": "0"
+					},
+					"穿孔时间": {
+						"english": "",
+						"key": ".stPiercingLaserControl.PercingTime",
+						"type": "int",
+						"unit": "",
+						"value": "0"
+					},
+					"穿孔气体": {
+						"english": "",
+						"key": ".stPiercingLaserControl.PercingGasType",
+						"type": "int",
+						"unit": "",
+						"value": "0"
+					},
+					"穿孔气压": {
+						"english": "",
+						"key": ".stPiercingLaserControl.PercingGasPress",
+						"type": "float",
+						"unit": "",
+						"value": "0"
+					},
+					"穿孔频率": {
+						"english": "",
+						"key": ".stPiercingLaserControl.PercingFrequency",
+						"type": "int",
+						"unit": "",
+						"value": "0"
+					},
+					"穿孔高度": {
+						"english": "",
+						"key": ".stPiercingLaserControl.PercingHeight",
+						"type": "float",
+						"unit": "",
+						"value": "0"
+					}
+				},
+				"预爆孔": {
+					"穿孔功率": {
+						"english": "VirtualRun",
+						"key": ".stPiercingLaserControl.PrePiercingPower",
+						"type": "int",
+						"unit": "",
+						"value": "0"
+					},
+					"穿孔占空比": {
+						"english": "Backward",
+						"key": ".stPiercingLaserControl.PrePiercingDuty",
+						"type": "int",
+						"unit": "",
+						"value": "0"
+					},
+					"穿孔时间": {
+						"english": "Backward",
+						"key": ".stPiercingLaserControl.PrePiercingTime",
+						"type": "int",
+						"unit": "",
+						"value": "0"
+					},
+					"穿孔气体": {
+						"english": "VirtualRun",
+						"key": ".stPiercingLaserControl.PrePiercingGasType",
+						"type": "int",
+						"unit": "",
+						"value": "0"
+					},
+					"穿孔气压": {
+						"english": "VirtualRun",
+						"key": ".stPiercingLaserControl.PrePiercingGasPress",
+						"type": "float",
+						"unit": "",
+						"value": "0"
+					},
+					"穿孔频率": {
+						"english": "SingleBlock",
+						"key": ".stPiercingLaserControl.PrePiercingFrequency",
+						"type": "int",
+						"unit": "",
+						"value": "0"
+					},
+					"穿孔高度": {
+						"english": "SingleBlock",
+						"key": ".stPiercingLaserControl.PrePercingHeight",
+						"type": "float",
+						"unit": "",
+						"value": "0"
+					}
+				}
+			}
+		}
+	},
+	"sessionid": 1,
+	"status": 0,
+	"type": "getdevinfos_ret"
+}

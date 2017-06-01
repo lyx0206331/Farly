@@ -1,0 +1,26 @@
+[
+    {
+        "outputFile": "/home/adrian/StudioProjects/法利莱/Library/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-h720dp-v13/values-h720dp-v13.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 66,
+                    "endOffset": 117
+                },
+                "from": {
+                    "file": "/home/adrian/.android/build-cache/0984cbdb371ca8b3ddb98378b20cf025b077137a/output/res/values-h720dp-v13/values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 294,
+                        "endColumn": 66,
+                        "endOffset": 356
+                    }
+                }
+            }
+        ]
+    }
+]
